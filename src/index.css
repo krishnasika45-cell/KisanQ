@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-kq-green: #1A7A3C;
+  --color-kq-green-dark: #145F2F;
+  --color-kq-green-mid: #2E9952;
+  --color-kq-green-light: #E8F5EE;
+  --color-kq-green-xlight: #F2FAF5;
+  --color-kq-navy: #1A2B4A;
+  --color-kq-navy-light: #2A3F6A;
+  --color-kq-amber: #E8960A;
+  --color-kq-amber-light: #FEF3C7;
+  --color-kq-bg: #F5F9F6;
+  --color-kq-card: #FFFFFF;
+  --color-kq-border: #C8DFD0;
+  --color-kq-muted: #6B7280;
+  --color-kq-red: #C8332A;
+  --color-kq-red-light: #FEF2F2;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-inter);
+  background-color: #F5F9F6;
+  color: #1A2B4A;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+*:hover {
+  scrollbar-color: #C8DFD0 transparent;
+}
